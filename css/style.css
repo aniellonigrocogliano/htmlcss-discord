@@ -55,7 +55,9 @@ nav div {
 
   width: 25%;
 }
-
+.navc ul{
+  display: flex;
+}
 .navc {
   flex-grow: 3;
 }
