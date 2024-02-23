@@ -8,17 +8,40 @@
     margin: 0 auto;
 
 }
+.navcolor{
+  background-color: #255EE9;
+}
   nav{
     display: flex;
-    background-color: #DAA520;
     align-items: center;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
     text-align: center;
+   
+  }
+  ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+nav a{
+  text-decoration: none;
+  color: white;
+}
+.btn{
+  border: none;
+  border-radius: 25px;
+  height: 25px;
+  width: 35%;
+}
+  
+  nav img{
+     padding: 5px;
   }
   nav div{
-    border: 2px dashed black;
+   
     width: 25%;
   }
   .navc{
